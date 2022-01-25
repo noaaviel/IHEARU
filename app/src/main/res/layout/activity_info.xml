@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infoimg"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="monospace"
+        android:text="IHearU App"
+        android:textAlignment="viewStart"
+        android:textColor="@color/md_pink_700"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:fontFamily="monospace"
+        android:text="This App Was Created To Help Anyone In Danger.                              In Order To Send SMS With Location Details To Emergency Contacts Simply Press The Big Round Button On The Main Screen, Or Press The Power Button 4 Times.
+                              And By All Means,                       Be Safe!"
+        android:textAlignment="center"
+        android:textColor="@color/md_pink_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:src="@mipmap/ic_launcher_ihearu"
+        app:civ_border_color="@color/md_pink_700"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/white"
+        app:civ_shadow_radius="10dp" />
+
+</RelativeLayout>

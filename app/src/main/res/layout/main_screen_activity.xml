@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimage">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="iHearU"
+        android:textColor="@color/md_pink_900"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="We Listen Together"
+        android:textColor="@color/md_pink_900"
+        android:textSize="28sp" />
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/my_fab"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:layout_below="@id/textView7"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="75dp"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher_ihearu"
+        app:civ_border_color="@color/md_pink_100"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/white"
+        app:civ_shadow_radius="10dp" />
+
+</RelativeLayout>

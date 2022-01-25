@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Class_2021A_And_b9</string>
+    <string name="continue_">Continue</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verification_code">Verification Code</string>
+
+    <string name="sign_in_cancelled">Sign In Cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed"
+    </string>
+
+    <string name="default_msg" translatable="false">LISTEN TO THIS SONG WITH ME </string>
+    <string name="intro_text" translatable="false"> Music Can Save Your Life! </string>
+
+    <string name="widget_button_text" translatable="false">SEND SOS</string>
+
+    <string name="emg_contacts_text" translatable="false"> Long tap on contact to delete it. </string>
+    <string name="info_tag" translatable="false">Click this to know how to use the app.</string>
+    <string name="settings_tag" translatable="false">Click this to go to the App\'s Settings.</string>
+    <string name="sos_tag" translatable="false">Click this to send song in message.</string>
+    <string name="ihearu_tag" translatable="false">iHearU</string>
+    <string name="ihearu_tagline" translatable="false">You Are Not Alone..</string>
+
+
+
+</resources>

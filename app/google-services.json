@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094275799764",
+    "project_id": "ihearufinal",
+    "storage_bucket": "ihearufinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094275799764:android:1e3de9ea87188dd92cf941",
+        "android_client_info": {
+          "package_name": "com.example.ihearu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094275799764-o4n71gfuv4a359kra82qcoi0flsdmbe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWD_8HUSR6BRuzGswI8vDMufaY--h_ztw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094275799764-o4n71gfuv4a359kra82qcoi0flsdmbe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
