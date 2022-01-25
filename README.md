@@ -4,13 +4,13 @@
  sos app
 
 
-  ## Login And Register Using Firebase
+  ## IHearU Info Screen
 <p align="left">
   <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2015.55.03%20(1).jpeg" width="350" title="hover text">
   <img src="" width="350" alt="accessibility text">
 </p>
 
-  ## Create New Profile
+  ## Emergency Contacts
   <p align="left">
     <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2015.55.03%20(2).jpeg" width="350" title="hover text">
  </p>
@@ -22,21 +22,20 @@
  </p>
 
 
-  ## Add Expense Screen
+  ## SMS As Sent Out From User's Phone
   <p align="left">
     <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2021.10.18%20(1).jpeg" width="350" title="hover text">
  </p>
 
-  ## View All Expenses Screen
+  ## Location From URL Sent In SMS
   <p align="left">
     <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2021.11.43.jpeg" width="350" title="hover text">
  </p>
 
 
-  ## View Expenses By category Screen
+  ## SMS As Seen In Emergency Contact's Phone
   <p align="left">
-    <img src="" width="350" title="hover text">
-    <img src="" width="350" alt="accessibility text">
+    <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2021.11.43%20(1).jpeg" width="350" title="hover text">
    </p>
 
 
