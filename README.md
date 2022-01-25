@@ -6,8 +6,8 @@
 
   ## IHearU Info Screen
 <p align="left">
-  <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2015.55.03%20(1).jpeg" width="350" title="hover text">
-  <img src="" width="200" alt="accessibility text">
+  <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2015.55.03%20(1).jpeg" width="200" title="hover text">
+  <img src="https://github.com/noaaviel/IHEARU/blob/master/images/WhatsApp%20Image%202022-01-25%20at%2015.55.03%20(2).jpeg" width="200" alt="accessibility text">
 </p>
 
   ## Emergency Contacts
