@@ -287,8 +287,8 @@ public class MainScreenActivity extends AppCompatActivity {
         }
 
         // create the popup window
-        int width = 1200;
-        int height = 1200;
+        int width = 1000;
+        int height = 1000;
         boolean focusable = true; // lets taps outside the popup also dismiss it
         final PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
         popupWindow.showAtLocation(popupView.findViewById(R.id.noa),Gravity.CENTER,0,0);

@@ -6,7 +6,7 @@
     android:layout_centerHorizontal="true"
     android:layout_centerInParent="true"
     android:id="@+id/noa"
-    android:background="@color/md_pink_50">
+    android:background="@color/md_pink_100">
 
     <ImageView
         android:id="@+id/genre"
