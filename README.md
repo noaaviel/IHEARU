@@ -30,4 +30,8 @@
 
 # Features
 
- - [x]  Users are Saved in firebase Authentication and all the information loaded from Realtime Database.
+ - [x]  Users are saved in firebase Authentication and all the information loaded from Realtime Database.
+ - [x]  SMS sending service for emergency contacts.
+ - [x]  Location services collect data on persons location and sends it to emergency contacts vis SMS.
+ - [x]  Editing custom message is available and restoring to default message too.
+ - [x]  BY ALL MEANS BE SAFE. 
