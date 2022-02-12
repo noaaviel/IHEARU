@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IHEARU" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_pink_100</item>
+        <item name="colorPrimaryVariant">@color/md_pink_700</item>
+        <item name="colorOnPrimary">@color/md_pink_900</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_pink_200</item>
+        <item name="colorSecondaryVariant">@color/md_pink_900</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PinkTheme" parent="FirebaseUI">
+        <!-- Required for sign-in flow styling -->
+        <item name="colorPrimary">#B4FFD7D2</item>
+        <item name="colorPrimaryDark">@color/md_pink_700</item>
+        <item name="colorAccent">@color/md_pink_A700</item>
+        <item name="colorControlNormal">@color/md_pink_500</item>
+        <item name="colorControlActivated">@color/md_pink_900</item>
+        <item name="colorControlHighlight">@color/md_pink_A200</item>
+        <item name="android:windowBackground">@drawable/mainimage</item>
+    </style>
+
+    <style name="AppThemeFirebaseAuth" parent="FirebaseUI">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#B4FFD7D2</item>
+        <item name="colorPrimaryDark">@color/md_pink_700</item>
+        <item name="colorAccent">@color/md_pink_A700</item>
+        <item name="colorControlNormal">@color/md_pink_500</item>
+        <item name="colorControlActivated">@color/md_pink_900</item>
+        <item name="colorControlHighlight">@color/md_pink_A200</item>
+        <item name="android:windowBackground">@drawable/mainimage</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:background">@color/md_pink_900</item>
+    </style>
+
+
+
+</resources>

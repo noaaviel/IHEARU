@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ihearu">
-
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -13,46 +12,44 @@
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyDpUNSbH0KdS_YuRo9sHC_nF0fskRVtSZk" />
+        android:value="AIzaSyALpzSjcEJpz4wzQkSIEIy7nJztUVC8slc" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_ihearu"
+        android:icon="@mipmap/ic_launcher"
         android:label="IHearU"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/PinkTheme">
         <activity
-            android:name=".InfoActivity"
+            android:name=".LoginAndMain.InfoActivity"
             android:exported="false" />
 
         <service
-            android:name=".MyPowerButtonService"
+            android:name=".Settings.MyPowerButtonService"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".MainScreenActivity"
+            android:name=".LoginAndMain.MainScreenActivity"
             android:exported="false" />
-        <activity android:name=".EmergencyContactsActivity"
+        <activity android:name=".LoginAndMain.EmergencyContactsActivity"
             android:exported="false"
             />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".Settings.SettingsActivity"
             android:exported="false" />
 
-        <activity android:name=".Activity_Panel" />
-
         <!--first to open-->
-        <activity android:name=".Activity_Login">
+        <activity android:name=".LoginAndMain.Activity_Login">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginAndMain.MainActivity" />
     </application>
 
 </manifest>

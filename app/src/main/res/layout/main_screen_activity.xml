@@ -37,11 +37,11 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="75dp"
         android:clickable="true"
-        android:src="@mipmap/ic_launcher_ihearu"
-        app:civ_border_color="@color/md_pink_100"
+        android:src="@drawable/i_hear_logo"
+        app:civ_border_color="#FFFFFF"
         app:civ_border_width="4dp"
         app:civ_shadow="true"
         app:civ_shadow_color="@color/white"
-        app:civ_shadow_radius="10dp" />
+        app:civ_shadow_radius="16dp" />
 
 </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/infoimg"
-    tools:context=".InfoActivity">
+    tools:context=".LoginAndMain.InfoActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -40,7 +40,7 @@
         android:layout_height="170dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="515dp"
-        android:src="@mipmap/ic_launcher_ihearu"
+        android:src="@mipmap/ic_launcher_round"
         app:civ_border_color="@color/md_pink_700"
         app:civ_border_width="4dp"
         app:civ_shadow="true"

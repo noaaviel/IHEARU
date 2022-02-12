@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/md_pink_300"
-    tools:context=".SettingsActivity">
+    tools:context=".Settings.SettingsActivity">
 
     <!--frame layout for displaying
         our preference fragment-->
